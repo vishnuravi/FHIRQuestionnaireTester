@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This is an application for testing surveys with ResearchKit.</string>
+</dict>
+</plist>
