@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637AC10F2DF08134009C748D /* FHIRQuestionnaires in Frameworks */ = {isa = PBXBuildFile; productRef = 637AC10E2DF08134009C748D /* FHIRQuestionnaires */; };
+		637AC1112DF08134009C748D /* ResearchKitOnFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 637AC1102DF08134009C748D /* ResearchKitOnFHIR */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637AC0F12DF080DD009C748D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637AC0DA2DF080DB009C748D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637AC0E12DF080DB009C748D;
+			remoteInfo = FHIRQuestionnaireTester;
+		};
+		637AC0FB2DF080DD009C748D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637AC0DA2DF080DB009C748D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637AC0E12DF080DB009C748D;
+			remoteInfo = FHIRQuestionnaireTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637AC0E22DF080DB009C748D /* FHIRQuestionnaireTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHIRQuestionnaireTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637AC0F02DF080DD009C748D /* FHIRQuestionnaireTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHIRQuestionnaireTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637AC0FA2DF080DD009C748D /* FHIRQuestionnaireTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHIRQuestionnaireTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		637AC0E42DF080DB009C748D /* FHIRQuestionnaireTester */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FHIRQuestionnaireTester;
+			sourceTree = "<group>";
+		};
+		637AC0F32DF080DD009C748D /* FHIRQuestionnaireTesterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FHIRQuestionnaireTesterTests;
+			sourceTree = "<group>";
+		};
+		637AC0FD2DF080DD009C748D /* FHIRQuestionnaireTesterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FHIRQuestionnaireTesterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637AC0DF2DF080DB009C748D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637AC1112DF08134009C748D /* ResearchKitOnFHIR in Frameworks */,
+				637AC10F2DF08134009C748D /* FHIRQuestionnaires in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0ED2DF080DD009C748D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0F72DF080DD009C748D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637AC0D92DF080DB009C748D = {
+			isa = PBXGroup;
+			children = (
+				637AC0E42DF080DB009C748D /* FHIRQuestionnaireTester */,
+				637AC0F32DF080DD009C748D /* FHIRQuestionnaireTesterTests */,
+				637AC0FD2DF080DD009C748D /* FHIRQuestionnaireTesterUITests */,
+				637AC0E32DF080DB009C748D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637AC0E32DF080DB009C748D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637AC0E22DF080DB009C748D /* FHIRQuestionnaireTester.app */,
+				637AC0F02DF080DD009C748D /* FHIRQuestionnaireTesterTests.xctest */,
+				637AC0FA2DF080DD009C748D /* FHIRQuestionnaireTesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637AC0E12DF080DB009C748D /* FHIRQuestionnaireTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637AC1042DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTester" */;
+			buildPhases = (
+				637AC0DE2DF080DB009C748D /* Sources */,
+				637AC0DF2DF080DB009C748D /* Frameworks */,
+				637AC0E02DF080DB009C748D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				637AC0E42DF080DB009C748D /* FHIRQuestionnaireTester */,
+			);
+			name = FHIRQuestionnaireTester;
+			packageProductDependencies = (
+				637AC10E2DF08134009C748D /* FHIRQuestionnaires */,
+				637AC1102DF08134009C748D /* ResearchKitOnFHIR */,
+			);
+			productName = FHIRQuestionnaireTester;
+			productReference = 637AC0E22DF080DB009C748D /* FHIRQuestionnaireTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637AC0EF2DF080DD009C748D /* FHIRQuestionnaireTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637AC1072DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTesterTests" */;
+			buildPhases = (
+				637AC0EC2DF080DD009C748D /* Sources */,
+				637AC0ED2DF080DD009C748D /* Frameworks */,
+				637AC0EE2DF080DD009C748D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637AC0F22DF080DD009C748D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				637AC0F32DF080DD009C748D /* FHIRQuestionnaireTesterTests */,
+			);
+			name = FHIRQuestionnaireTesterTests;
+			packageProductDependencies = (
+			);
+			productName = FHIRQuestionnaireTesterTests;
+			productReference = 637AC0F02DF080DD009C748D /* FHIRQuestionnaireTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637AC0F92DF080DD009C748D /* FHIRQuestionnaireTesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637AC10A2DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTesterUITests" */;
+			buildPhases = (
+				637AC0F62DF080DD009C748D /* Sources */,
+				637AC0F72DF080DD009C748D /* Frameworks */,
+				637AC0F82DF080DD009C748D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637AC0FC2DF080DD009C748D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				637AC0FD2DF080DD009C748D /* FHIRQuestionnaireTesterUITests */,
+			);
+			name = FHIRQuestionnaireTesterUITests;
+			packageProductDependencies = (
+			);
+			productName = FHIRQuestionnaireTesterUITests;
+			productReference = 637AC0FA2DF080DD009C748D /* FHIRQuestionnaireTesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637AC0DA2DF080DB009C748D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					637AC0E12DF080DB009C748D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					637AC0EF2DF080DD009C748D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 637AC0E12DF080DB009C748D;
+					};
+					637AC0F92DF080DD009C748D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 637AC0E12DF080DB009C748D;
+					};
+				};
+			};
+			buildConfigurationList = 637AC0DD2DF080DB009C748D /* Build configuration list for PBXProject "FHIRQuestionnaireTester" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637AC0D92DF080DB009C748D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				637AC10D2DF08134009C748D /* XCRemoteSwiftPackageReference "ResearchKitOnFHIR" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 637AC0E32DF080DB009C748D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637AC0E12DF080DB009C748D /* FHIRQuestionnaireTester */,
+				637AC0EF2DF080DD009C748D /* FHIRQuestionnaireTesterTests */,
+				637AC0F92DF080DD009C748D /* FHIRQuestionnaireTesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637AC0E02DF080DB009C748D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0EE2DF080DD009C748D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0F82DF080DD009C748D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637AC0DE2DF080DB009C748D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0EC2DF080DD009C748D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637AC0F62DF080DD009C748D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637AC0F22DF080DD009C748D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637AC0E12DF080DB009C748D /* FHIRQuestionnaireTester */;
+			targetProxy = 637AC0F12DF080DD009C748D /* PBXContainerItemProxy */;
+		};
+		637AC0FC2DF080DD009C748D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637AC0E12DF080DB009C748D /* FHIRQuestionnaireTester */;
+			targetProxy = 637AC0FB2DF080DD009C748D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		637AC1022DF080DD009C748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637AC1032DF080DD009C748D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		637AC1052DF080DD009C748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FHIRQuestionnaireTester/FHIRQuestionnaireTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2Q3T3P8HP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FHIR Questionnaire Tester";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bdh.FHIRQuestionnaireTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		637AC1062DF080DD009C748D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FHIRQuestionnaireTester/FHIRQuestionnaireTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2Q3T3P8HP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FHIR Questionnaire Tester";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bdh.FHIRQuestionnaireTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		637AC1082DF080DD009C748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.FHIRQuestionnaireTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHIRQuestionnaireTester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FHIRQuestionnaireTester";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		637AC1092DF080DD009C748D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.FHIRQuestionnaireTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHIRQuestionnaireTester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FHIRQuestionnaireTester";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		637AC10B2DF080DD009C748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.FHIRQuestionnaireTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FHIRQuestionnaireTester;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		637AC10C2DF080DD009C748D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.FHIRQuestionnaireTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FHIRQuestionnaireTester;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637AC0DD2DF080DB009C748D /* Build configuration list for PBXProject "FHIRQuestionnaireTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637AC1022DF080DD009C748D /* Debug */,
+				637AC1032DF080DD009C748D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637AC1042DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637AC1052DF080DD009C748D /* Debug */,
+				637AC1062DF080DD009C748D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637AC1072DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637AC1082DF080DD009C748D /* Debug */,
+				637AC1092DF080DD009C748D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637AC10A2DF080DD009C748D /* Build configuration list for PBXNativeTarget "FHIRQuestionnaireTesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637AC10B2DF080DD009C748D /* Debug */,
+				637AC10C2DF080DD009C748D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		637AC10D2DF08134009C748D /* XCRemoteSwiftPackageReference "ResearchKitOnFHIR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/ResearchKitOnFHIR";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		637AC10E2DF08134009C748D /* FHIRQuestionnaires */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637AC10D2DF08134009C748D /* XCRemoteSwiftPackageReference "ResearchKitOnFHIR" */;
+			productName = FHIRQuestionnaires;
+		};
+		637AC1102DF08134009C748D /* ResearchKitOnFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637AC10D2DF08134009C748D /* XCRemoteSwiftPackageReference "ResearchKitOnFHIR" */;
+			productName = ResearchKitOnFHIR;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 637AC0DA2DF080DB009C748D /* Project object */;
+}
