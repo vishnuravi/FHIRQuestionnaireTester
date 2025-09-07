@@ -1,13 +1,13 @@
 # FHIR Questionnaire Tester
 
-A native iOS app for testing FHIR Questionnaire JSON files built using the Phoenix Survey Builder](https://stanfordbdhg.github.io/phoenix/) and [ResearchKitOnFHIR](https://github.com/StanfordBDHG/ResearchKitOnFHIR). Using these tools, the app automatically handles the conversion between FHIR Questionnaire format and [ResearchKit](https://github.com/ResearchKit/ResearchKit)'s native survey format.
+A native iOS app for testing FHIR Questionnaire JSON files built using the [Phoenix Survey Builder](https://stanfordbdhg.github.io/phoenix/) and [ResearchKitOnFHIR](https://github.com/StanfordBDHG/ResearchKitOnFHIR). Using these tools, the app automatically handles the conversion between FHIR Questionnaire format and [ResearchKit](https://github.com/ResearchKit/ResearchKit)'s native survey format.
 
 ## What it does
 
 This app allows you to:
 - Load [FHIR Questionnaire](https://hl7.org/fhir/questionnaire.html) JSON files from your device
 - Present them as interactive surveys using ResearchKit
-- Generate and view [FHIR QuestionnaireResponse](https://hl7.org/fhir/questionnaireresponse.html) JSON output
+- Generate, view, and export [FHIR QuestionnaireResponse](https://hl7.org/fhir/questionnaireresponse.html) JSON output
 
 ## Requirements
 
@@ -26,4 +26,4 @@ This app allows you to:
 1. **Create a questionnaire**: You can create a FHIR Questionnaire using the [Phoenix Survey Builder](https://stanfordbdhg.github.io/phoenix/) tool. Download the questionnaire as a JSON file and copy it to your iOS device or simulator.
 1. **Load a questionnaire**: Tap "Select JSON File" and choose a FHIR Questionnaire JSON file from your device or simulator.
 2. **Complete the survey**: The app will present the questionnaire as an interactive survey using ResearchKit.
-3. **View results**: After completion, the app will show the generated FHIR QuestionnaireResponse JSON.
+3. **View results**: After completion, the app will show the generated FHIR QuestionnaireResponse JSON. The JSON file can also be exported and shared.

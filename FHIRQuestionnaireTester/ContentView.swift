@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var showingFilePicker = false
     @State private var showingQuestionnaire = false
     @State private var selectedFile: URL?
+    @State private var originalFileName: String?
     @State private var questionnaire: ModelsR4.Questionnaire?
     @State private var task: ORKNavigableOrderedTask?
     @State private var errorMessage: String?
@@ -62,6 +63,7 @@ struct ContentView: View {
             case .success(let files):
                 if let file = files.first {
                     selectedFile = file
+                    originalFileName = file.lastPathComponent
                     loadQuestionnaire(from: file)
                     showingQuestionnaire = true
                 }
@@ -88,7 +90,7 @@ struct ContentView: View {
             get: { showingResponse && !questionnaireResponse.isEmpty },
             set: { showingResponse = $0 }
         )) {
-            ResponseView(questionnaireResponse: questionnaireResponse)
+            ResponseView(questionnaireResponse: questionnaireResponse, originalFileName: originalFileName)
         }
     }
     
@@ -144,6 +146,7 @@ struct ContentView: View {
         }
         
         selectedFile = nil
+        originalFileName = nil
         questionnaire = nil
         task = nil
     }
