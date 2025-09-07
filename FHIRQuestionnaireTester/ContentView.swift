@@ -143,6 +143,8 @@ struct ContentView: View {
         }
         
         selectedFile = nil
+        questionnaire = nil
+        task = nil
     }
 }
 
