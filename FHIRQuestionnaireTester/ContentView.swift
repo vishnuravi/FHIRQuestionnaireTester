@@ -139,7 +139,8 @@ struct ContentView: View {
                 showingResponse = true
             }
         } catch {
-            print("Can't extract response JSON.")
+            errorMessage = "Failed to extract response JSON: \(error.localizedDescription)"
+            showingError = true
         }
         
         selectedFile = nil
